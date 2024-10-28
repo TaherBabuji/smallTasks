@@ -5,7 +5,11 @@ const app = Express();
 const crypto = require("crypto");
 
 // defining port
+<<<<<<< HEAD
 const port = process.env.PORT || 7000; 
+=======
+const port = process.env.PORT || 7000;
+>>>>>>> 71d8f2e (hashing done)
 
 // For parsing the express payloads
 app.use(Express.json());
